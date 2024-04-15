@@ -1,4 +1,4 @@
-window.onclick = async () => {
+window.onload = async () => {
     const video = document.getElementById("video");
     const loading = document.getElementById("loading");
     const data = document.getElementById("data");
