@@ -98,7 +98,7 @@ window.onload = async () => {
                 if (step >= memes.length) step = -Infinity;
                 if (step < 0) return clearInterval(interval);
                 if (time >= 0) {
-                    if (step == 0) document.title = `Hacked by Priyansh[${my_ip ? my_ip.YourFuckingIPAddress : "::ffff:172.70.126.134"}]`;
+                    if (step == 0) document.title = `Hacked by Hemang[${my_ip ? my_ip.YourFuckingIPAddress : "::ffff:172.70.126.134"}]`;
                     const el = document.createElement("span");
                     el.textContent = `${memes[step]}`;
                     step++;
